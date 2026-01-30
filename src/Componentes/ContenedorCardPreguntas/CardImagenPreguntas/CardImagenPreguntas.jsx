@@ -8,6 +8,8 @@ const CardImagenPreguntas = ({ modeloUrl, imagenUrl }) => {
                 <model-viewer
                     src={modeloUrl}
                     alt="Modelo 3D médico"
+                    ar
+                    ar-modes="webxr scene-viewer quick-look"
                     auto-rotate
                     camera-controls
                     camera-orbit="90deg 75deg auto"
